@@ -36,3 +36,13 @@ body {
     border: 1px solid #a2a2a2;
     padding: 10px;
 }
+@media (max-width: 600px) {
+    .main-and-sidebar-wrapper {
+        flex-direction: column;
+    }
+
+    .main_container {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+}
