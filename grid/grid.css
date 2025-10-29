@@ -54,3 +54,14 @@ footer {
     /*  The gutters between each grid cell will be 60 pixels. */
     grid-gap: 60px;
 }
+@media (max-width: 600px) {
+    .container {
+        /*  Redefine the grid into a single column layout. */
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "main"
+            "sidebar"
+            "footer";
+    }
+}
