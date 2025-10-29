@@ -9,6 +9,28 @@ body {
 }
 header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header nav {
+    justify-self: start;
+    list-style: none;
+}
+header nav li {
+    margin-right: 15px;
+    display: inline-block;
+}
+header nav a{
+    color: #ef5350;
+    text-decoration: none;
+}
+header button {
+    justify-self: end;
+    background-color: #ef5350;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    text-transform: uppercase;
 }
 .main_container {
     grid-area: main_container;
