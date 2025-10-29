@@ -50,6 +50,13 @@ header button {
 }
 footer {
     grid-area: footer;
+    color: #ef5350;
+    text-align: center;
+    padding: 30px 30px;
+}
+footer p {
+    font-size: 12px;
+    color: #4e4544;
 }
 .container {
     max-width: 900px;
